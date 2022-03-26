@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Dongle', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    background-image: url("./images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+.main h1{
+    font-size: 4em;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.main .personal{
+    width: 100%;
+    font-size: 1.5em;
+    background-color: #00000011;
+    color: #fff;
+    padding-top: 15px;
+    backdrop-filter: blur(5px);
+}
+button{
+    font-size: 1.6em;
+    background-color: white;
+    border-radius: 3px;
+    width: auto;
+    outline: none;
+    border: none;
+    padding: 7px 30px 4px 30px;
+    text-transform: uppercase;
+}
+
+.contact{
+    position: fixed;
+    height: auto;
+    width: min(85%,400px);
+    background-color: white;
+    min-height: 100px;
+    padding: 20px 30px 30px 30px;
+    border-radius: 15px;
+    color: black;
+    top: 150%;
+    transition: 0.2s ease top;
+    transform: translate(-50%,-50%);
+    left: 50%;
+
+}
+.contact h2{
+    text-align: center;
+    font-size: 1.7em;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+.contact p{
+    font-size: 1.5em;
+    font-weight: 400;
+}
+.contact .ok{
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+}
+.contact a{
+    text-decoration: none;
+    color: dodgerblue;
+    /* color: black; */
+}
+.contact button{
+    /* background-color: rgb(80, 26, 26); */
+    width: 100%;
+    border-radius: 10px;
+    background-color: #eeeeee;
+}

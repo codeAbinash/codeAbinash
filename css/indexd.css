@@ -1,0 +1,33 @@
+@media screen and (min-width: 1000px) {
+    header .d1 .menuBtn{
+        display: none;
+    }
+    header .d2{
+        position: absolute;
+        top: 0;
+        height: 60px;
+        flex-direction: row;
+        justify-content: flex-end;
+        width: 70%;
+        right: 0;
+        /* background-color: rebeccapurple; */
+    }
+    
+    header .d2 .link{
+        justify-content: flex-end;
+        border: none;
+        padding: 10px;
+        margin: 0 20px;
+        width: auto;
+    }
+    .body{
+        flex-direction: row;
+    }
+    .body .d1{
+        width: 30%;
+    }
+    .body .d2{
+        width: 70%;
+    }
+    
+}

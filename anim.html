@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/common.css">
+    <title>More</title>
+<style>
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.main{
+    height: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: pink; */
+    flex-direction: column;
+}
+.main div{
+    width: 100px;
+    height: 7px;
+    background-color: #555;
+    border-radius: 100px;
+    position: absolute;
+    transition: 0.2s linear transform;
+}
+.main .l1{
+    transform: translateY(-40px) translateX(-20px);
+}
+.main .l2{
+    transform: translateY(40px) translateX(20px);
+}
+.main .l3{
+    width: 140px;
+    transition: 0.1s linear width,0.1s linear opacity;
+}
+.main.on .l1{
+    width: 120px;
+    transform: translate(0) rotate(-135deg);
+}
+.main.on .l2{
+    width: 120px;
+    transform: translate(0) rotate(-45deg);
+}
+.main.on .l3{
+    width: 0;
+    opacity: 0;
+}
+</style>
+</head>
+<body>
+    <div class="main" onclick="clicked(this)">
+        <div class="l1"></div>
+        <div class="l3"></div>
+        <div class="l2"></div>
+    </div>
+</body>
+<script>
+function clicked(elem){
+    console.log(elem);
+    elem.classList.toggle("on")
+}
+</script>
+</html>

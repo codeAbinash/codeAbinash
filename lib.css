@@ -1,0 +1,18 @@
+.press{
+    transition: 0.1s linear transform;
+}
+.press:active{
+    transform: scale(0.95);
+}
+.linkHover{
+    background-image: linear-gradient(to right,red,blue);
+    background-size: 0% 4px;
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    transition: background-size 200ms linear;
+    cursor: pointer;
+}
+.linkHover:hover{
+    background-size: 100% 4px;
+    
+}

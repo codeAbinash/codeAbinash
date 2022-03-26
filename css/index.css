@@ -1,0 +1,203 @@
+:root{
+    --color:#ff0099;
+    --header-height:70px;
+}
+header{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background-color: #ffffffee;
+    backdrop-filter: blur(10px);
+    position: fixed;
+    
+}
+header .d1{
+    height: var(--header-height);
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    height: 60px;
+}
+
+header .d1 .logo{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+header .d1 .menuBtn{
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header .d1 .menuBtn div{
+    width: 25px;
+    height: 2.5px;
+    background-color: black;
+    border-radius: 100px;
+    position: absolute;
+    transition: 0.2s linear transform;
+}
+header .d1 .menuBtn .l1{
+    transform: translateY(-7px);
+}
+header .d1 .menuBtn .l2{
+    width: 20px;
+    transform: translateX(2.5px);
+
+}
+header .d1 .menuBtn .l3{
+    width: 15px;
+    transform: translateY(7px) translateX(5px);
+    transition: 0.2s linear width;
+}
+
+
+header .d1 .menuBtn.on .l1{
+    transform: rotate(135deg);
+}
+header .d1 .menuBtn.on .l2{
+    width: 25px;
+    transform: rotate(45deg);
+}
+header .d1 .menuBtn.on .l3{
+    width: 0;
+}
+
+header .d2{
+    height: 0;
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: 300ms linear height;
+}
+header .d2.on{
+    height: 90vh;
+}
+header .d2 .link{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-top: 1px solid #00000044;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+
+.body{
+    padding-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.body .d1{
+    min-height: 100px;
+    width: 100%;
+}
+.body .d1 .pp{
+    width: 100%;
+    height: 300px;
+    background-color: var(--color);
+    background-image: url("../images/pp.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: left;
+    align-items: flex-end;
+    overflow: hidden;
+}
+.body .d1 .pp h1{
+    color: white;
+    padding: 20px;
+    /* backdrop-filter: blur(10px); */
+    background-color: #00000066;
+    border-radius: 0 100px 100px 0 ;
+    box-shadow: 0 0 10px 10px #00000066;
+}
+.body .d1 .about{
+    width: 100%;
+    height: auto;
+    padding: 10px;
+}
+.body .d1 .about p{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    color: #444;
+}
+.body .d1 .about p i{
+    margin-right: 10px;
+    font-size: 1.2em;
+    color: #000000aa;
+}
+.body .d1 .about p a{
+    margin-left: 5px;
+}
+
+.body .d1 .roundLinks{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 10px;
+}
+.body .d1 .roundLinks img{
+    height: 30px;
+    width: auto;
+    margin:5px;
+}
+
+.body .d1 .skills, .body .d1 .edu{
+    width: 100%;
+    margin-top: 20px;
+    padding: 20px;
+}
+.body .d1 .skills .h, .body .d1 .edu .h{
+    font-weight: bold;
+    color: #888;
+    font-size: 1.3em;
+
+}
+.body .d1 .skills .skill {
+    width: 100%;
+    margin-top: 20px;
+}
+.body .d1 .skills .skill .name{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}   
+.body .d1 .skills .skill .per{
+    height: 8px;
+    width: 100%;
+    border-radius: 10px;
+    background-color: #eee;
+    overflow: hidden;
+    margin-top: 5px;
+}
+.body .d1 .skills .skill .per .p{
+    height: 8px;
+    width: 80%;
+    border-radius: 10px;
+    background-image: linear-gradient(to left,#8e54e9,#4776e6);
+}
+
+.body .d1 .edu p{
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 10px;
+}
