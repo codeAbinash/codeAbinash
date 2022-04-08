@@ -7,23 +7,16 @@
 ## This is My [Website](https://codeAbinash.github.io/codeAbinash)
 
 ## My Skills : 
-<style>
-.icons{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-}
-.icons img{
-    width: 40%;
-    border-radius: 20px;
-    margin:20px;
-}
+<p align="center"><img width="70%" src="./readme/img/js.svg"></p>
+<h1 align="center">Javascript</h1>
 
-</style>
-<div class="icons">
-    <img src="./readme/img/js.svg">
-    <img src="./readme/img/node.svg">
-    <img src="./readme/img/react.svg">
-    <img src="./readme/img/mongodb.svg">
-</div>
+<p align="center"><img width="70%" src="./readme/img/node.svg"></p>
+<h1 align="center">Node JS</h1>
+
+<p align="center"><img width="70%" src="./readme/img/react.svg"></p>
+<h1 align="center">React.js</h1>
+
+<p align="center"><img width="70%" src="./readme/img/mongodb.svg"></p>
+<h1 align="center">MongoDB</h1>
+
+## Contact Me : codeAbinash@gmail.com
