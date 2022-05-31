@@ -20,8 +20,8 @@
 <h1 align="center">MongoDB</h1>
 
 
-<p align="center"><img width="100%" src="https://codeabinash.github.io/DOM.js/images/logo.svg"></p>
-<h1 align="center">DOM.js</h1>
+<p align="center"><img width="100%" src="https://codeabinash.github.io/beyond-javascript/images/Github@1x-long.jpg"></p>
+<h1 align="center">Beyond JavaScript</h1>
 
 
 
