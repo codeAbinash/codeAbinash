@@ -7,6 +7,7 @@
 }
 body{
     min-height: 100vh;
+    background-color: #fff;
     /* font-weight: bold; */
 }
 ::-webkit-scrollbar {
