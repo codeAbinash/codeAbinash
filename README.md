@@ -7,16 +7,16 @@
 ## This is My [Website](https://codeAbinash.github.io/codeAbinash)
 
 ## My Skills : 
-<p align="center"><img width="70%" src="./readme/img/js.svg"></p>
+<p align="center"><img width="40%" src="./readme/img/js.svg"></p>
 <h1 align="center">Javascript</h1>
 
-<p align="center"><img width="70%" src="./readme/img/node.svg"></p>
+<p align="center"><img width="40%" src="./readme/img/node.svg"></p>
 <h1 align="center">Node JS</h1>
 
-<p align="center"><img width="70%" src="./readme/img/react.svg"></p>
+<p align="center"><img width="40%" src="./readme/img/react.svg"></p>
 <h1 align="center">React.js</h1>
 
-<p align="center"><img width="70%" src="./readme/img/mongodb.svg"></p>
+<p align="center"><img width="40%" src="./readme/img/mongodb.svg"></p>
 <h1 align="center">MongoDB</h1>
 
 
