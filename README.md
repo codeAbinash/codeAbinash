@@ -7,21 +7,16 @@
 ## This is My [Website](https://codeAbinash.github.io/codeAbinash)
 
 ## My Skills : 
-<p align="center"><img width="40%" src="./readme/img/js.svg"></p>
-<h1 align="center">Javascript</h1>
+<div align="center">
 
-<p align="center"><img width="40%" src="./readme/img/node.svg"></p>
-<h1 align="center">Node JS</h1>
+<img style="padding:20px;" width="150px" src="./readme/img/js.svg">
+<img style="padding:20px;" width="150px" src="./readme/img/node.svg">
+<img style="padding:20px;" width="150px" src="./readme/img/react.svg">
+<img style="padding:20px;" width="150px" src="./readme/img/mongodb.svg">
+</div>
 
-<p align="center"><img width="40%" src="./readme/img/react.svg"></p>
-<h1 align="center">React.js</h1>
-
-<p align="center"><img width="40%" src="./readme/img/mongodb.svg"></p>
-<h1 align="center">MongoDB</h1>
-
-
-<p align="center"><img width="100%" src="https://codeabinash.github.io/beyond-javascript/images/Github@1x-long.jpg"></p>
 <h1 align="center">Beyond JavaScript</h1>
+<img width="100%" src="https://codeabinash.github.io/beyond-javascript/images/Github@1x-long.jpg"></p>
 
 
 
