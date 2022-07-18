@@ -16,7 +16,7 @@
 </div>
 
 <h1 align="center">Beyond JavaScript</h1>
-<img width="100%" src="https://codeabinash.github.io/beyond-javascript/images/Github@1x-long.jpg"></p>
+<img width="100%" src="https://codeabinash.github.io/web/images/home/beyond_js.png"></p>
 
 
 
