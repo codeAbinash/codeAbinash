@@ -83,7 +83,7 @@ This is a JavaScript library for platform independent Emojis 😍. You can use t
 
 
 
-### [Eval](https://github.com/codeAbinash/english-dictionary-rn)
+### [Eval](https://github.com/codeAbinash/eval)
 This is an arithmetic string evaluation tool built using C++. It is a command line tool. I created this tool to learn more about how interpreters work. I am planning to make this tool more powerful in the future like a programming language. For now, it can only evaluate arithmetic expressions.
 
 
