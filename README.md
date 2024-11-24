@@ -6,12 +6,9 @@ I am a software engineer with a passion for web development. I love to create th
 - 3+ years of experience in Web Development
 - Currently working as a part time freelancer
 
-Please visit my
-<a target="_blank" href="https://codeAbinash.vercel.app">Portfolio</a> to see some of my projects.
+Please visit my [Portfolio](https://codeAbinash.vercel.app) to see some of my projects.
 
-<a target="_blank" href="https://codeAbinash.vercel.app">
-    <img src="images/portfolio.png" alt="Portfolio">
-</a>
+[![alt text](images/portfolio.png)](https://codeAbinash.vercel.app)
 
 ## Get in Touch
 
