@@ -1,14 +1,4 @@
-## About Me
-
-I am a software engineer with a passion for web development. I love to create things that make people's lives easier. Whether it is a web application, mobile application, or a command line tool, I love to create them.
-
-- B.Tech in Computer Science and Engineering
-- 4+ years of experience in Web Development
-- Currently working as a Frontend Engineer
-
-Please visit my [Portfolio](https://codeAbinash.vercel.app) to see some of my projects.
-
-[![alt text](images/portfolio.png)](https://codeAbinash.vercel.app)
+[![alt text](images/portfolio.webp)](https://codeAbinash.vercel.app)
 
 ## Get in Touch
 
